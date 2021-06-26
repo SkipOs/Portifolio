@@ -1,0 +1,98 @@
+:root {
+    --main_color: #000000;
+    --secondary_color: var(--main_color);
+    --text-color: #b1b8be;
+    --sub-color: #0e0e0e8c;
+}
+
+*,
+*.after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Courier New";
+    font-size: 16px;
+    line-height: 1.5;
+    align-self: top;
+    letter-spacing: .2rem;
+}
+
+.menu {
+    position: fixed;
+    margin-top: 0;
+    width: 100%;
+    background: linear-gradient(var(--main_color), var(--secondary_color));
+}
+
+.menu p {
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 20px;
+    font-family: Courier New;
+}
+
+.menu .menu-list,
+.menu .sub-menu {
+    list-style: none;
+}
+
+.menu a {
+    color: var(--text-color);
+    background: var(--main_color);
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.2 em;
+}
+
+.menu>.menu-list>li {
+    float: left;
+    position: relative;
+}
+
+.menu>.menu-list>li>a {
+    padding: 15px;
+    margin: 0 5px;
+    background: linear-gradient(var(--main_color), var(--secondary_color));
+}
+
+.menu>.menu-list>li:hover a {
+    background: var(--sub-color);
+    margin-top: -2px;
+}
+
+.menu>.menu-list>li:hover>.sub-menu {
+    margin-top: 7px;
+    display: block;
+}
+
+.menu>.menu-list>li>.sub-menu {
+    position: absolute;
+    top: 50px;
+    left: 5px;
+    background: rgba(255, 0, 0, 0);
+    min-width: 200px;
+    z-index: 1000;
+    display: none;
+}
+
+.menu>.menu-list>li>.sub-menu>li:hover a {
+    background: var(--main-color);
+}
+
+.menu>.menu-list>li>.sub-menu>li>a {
+    padding: 10px 20px;
+}
+
+.menu :after {
+    content: '.';
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
