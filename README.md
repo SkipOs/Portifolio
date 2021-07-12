@@ -7,3 +7,4 @@ https://github.com/users/SkipOs/projects/1
 
 # Milestones
 - Posted the project in a GitHub Repository (26 jun 2021)
+- Hosted the project in a GitHub.io Site (12 jul 2021)
