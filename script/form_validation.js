@@ -4,11 +4,11 @@ function validar() {
     if (nome == "") {
         window.alert("Preencha o campo com seu nome!");
         formulario.nome.focus();
-        /*return false;*/
+        return false;
     }
     if (mail == "") {
         window.alert("Preencha o campo com seu e-mail!");
         formulario.mail.focus();
-        /*return false;*/
+        return false;
     }
 }
