@@ -2,7 +2,7 @@
 A site model that I made for a school project.
 Altrought it is my first time with HTML5, CSS and JavaScript, I'm pretty happy with the results so far.
 
-Thanks for the Teacher Giorjety for the classes and supprt during the development of this site!
+Special thanks for the Teacher Giorjety for the classes and supprt during the development of this site!
 
 Upcoming "features"/updates (the projects branch to this Repository)
 https://github.com/users/SkipOs/projects/1
