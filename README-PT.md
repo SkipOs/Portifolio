@@ -10,6 +10,7 @@ https://github.com/users/SkipOs/projects/1
 # Marcas!
 - Postado o projeto em um repositório GitHub (26 de junho de 2021)
 - Hospedado o projeto em um site ".github.io" (12 de julho de 2021)
+- Postado o projeto com o as capacidades do aluno (18 de julho de 2021)
 
 # Como acessar o site?
 Simples: Tudo que você precisa fazer é colar este link no seu navegador (Ativo atualmente) ou apenas clicar nele!
