@@ -10,6 +10,7 @@ https://github.com/users/SkipOs/projects/1
 # Milestones!
 - Posted the project in a GitHub Repository (26 jun 2021)
 - Hosted the project in a GitHub.io Site (12 jul 2021)
+- Posted the student Scholar's History (19 jul 2021)
 
 # How to acesses the site?
 Simple: All you gotta do is paste this link on your web Browser (Actually is Live) or just click on it!
