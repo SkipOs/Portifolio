@@ -92,7 +92,7 @@ footer>p {
     font-size: 12px;
 }
 
-img {
+#roundbox>img {
     width: 42%;
     float: left;
     padding-right: 2rem
