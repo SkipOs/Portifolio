@@ -8,7 +8,7 @@ body {
     margin: 0;
     background-color: #292828;
     /* Mantém o fundo no lugar! */
-    background: url("../imagens/bangalore_to_wayanad.jpg") no-repeat center top fixed;
+    background: url("../imagens/bangalore_to_wayanad-min.jpg") no-repeat center top fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -20,14 +20,12 @@ body {
 }
 
 #roundbox {
-    left: 50%;
-    top: 40%;
-    margin-left: -350px;
-    margin-top: -55px;
     position: absolute;
-    width: 700px;
-    height: 110px;
-    background: #1a3320c7;
+    top: 30%;
+    left: 20%;
+    box-sizing: border-box;
+    width: 60%;
+    background: rgba(26, 51, 32, 0.600);
     color: #fff;
     border-radius: 60px;
 }
@@ -72,10 +70,11 @@ figcaption {
 footer {
     position: fixed;
     top: 97.3%;
-    left: 36%;
+    left: 35%;
     background-color: rgb(26, 51, 32);
     padding-left: 5px;
     padding-right: 3px;
+    z-index: 3;
 }
 
 footer>p {

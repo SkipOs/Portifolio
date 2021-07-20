@@ -1,7 +1,11 @@
 a:link,
 a:visited {
-    color: rgb(172, 7, 117);
-    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+p>a:hover {
+    color: rgb(231, 85, 141)!important;
 }
 
 body {
@@ -21,27 +25,29 @@ body {
 
 #roundbox {
     position: absolute;
-    top: 20%;
-    left: 22%;
-    box-align: center;
+    top: 8rem;
+    left: 10%;
     box-sizing: border-box;
-    width: 700px;
-    background: #1a3320c7;
+    width: 80%;
+    background: rgba(26, 51, 32, 0.600);
     color: #fff;
-    border-radius: 60px;
+    border-radius: 60px 60px 0px 0px;
+    z-index: 2;
 }
 
-a:hover {
-    color: rgb(9, 20, 182);
-    text-decoration: underline;
+#margem {
+    margin: 3rem;
 }
 
 p,
 li {
-    font-size: 12px;
+    font-size: 17px;
     color: aliceblue;
-    text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    padding-left: 4rem;
 }
 
 h1,
@@ -50,8 +56,8 @@ h3,
 h4,
 h5,
 h6 {
-    margin-top: 2px;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 figure {
@@ -71,10 +77,11 @@ figcaption {
 footer {
     position: fixed;
     top: 97.3%;
-    left: 36%;
+    left: 35%;
     background-color: rgb(26, 51, 32);
     padding-left: 5px;
     padding-right: 3px;
+    z-index: 3;
 }
 
 footer>p {
@@ -82,13 +89,11 @@ footer>p {
     text-align: center;
     font-weight: 1000;
     font-family: "Courier New";
+    font-size: 12px;
 }
 
-.forms {
-    margin-top: 3%;
-    margin-left: 5%;
-}
-
-#botao {
-    text-align: center;
+img {
+    width: 42%;
+    float: left;
+    padding-right: 2rem
 }
