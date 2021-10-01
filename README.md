@@ -14,8 +14,8 @@ https://github.com/users/SkipOs/projects/1
 - Posted the Projects Section (20 jul 2021)
 
 # How to acesses the site?
-Simple: All you gotta do is paste this link on your web Browser (Actually is Live) or just click on it!
-> https://skipos.github.io
+Simple: All you gotta do is paste this link on your web Browser (Not working anymore) or just click on it!
+> ____________ (Site was here)
 
 The Hosting is done via github, by renaming the name of this repository for my username and adding .github.io at the end, then commiting the changes. GitHub will auto-host the portifolio or the site for you. Note that you can only use raw JavaScript, CSS and HTML, and have only one Repository using this method. 
 
